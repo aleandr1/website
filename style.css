@@ -1,0 +1,163 @@
+.banner{
+	height: 990px;
+	background-image:url(banner.jpg);
+	padding-top: 30px;
+	background-size: 100%;
+}
+.middle{
+	height: 600px;
+	background-image: url(wall.jpg);
+	margin-right: auto;
+	margin-left: auto;
+}
+.footer{
+	height: 100px;
+	background-color: black;
+	padding-top: 50px;
+	font-size: 10px;
+	color:white;
+}
+.top{
+	height: 100px;
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	display: flex;
+}
+.content{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	text-align: center;
+}
+.logo{
+	height: 100px;
+	width: 100px;
+	margin-left: 100px;
+}
+.links{
+	color: black;
+	padding-top: 35px;
+	margin-left: 650px;
+	text-decoration: none;
+}
+.block{
+	height:160px;
+	width: 300px;
+	margin-left: 20px;
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 0.5s;
+	background-size: 100% 100%;
+	padding-top: 140px;
+	border-radius: 300px;
+}
+.block:hover{
+	background-image: url(naruto.jpg);
+	background-size: 100% 100%;
+	transform: scale(1.05);
+}
+.header h1{
+	color: white;
+	font-size: 50px;
+}
+.header{
+	text-align: center;
+	padding-top: 250px;
+	color: white; 
+	margin-left: auto; 
+	margin-right: auto;
+	transition: 0.5s;
+	width: 500px;
+}
+.header:hover{
+	transform: scale(1.25);
+
+
+}
+.middle h1{
+	color: white;
+	font-family: myfont;
+
+}
+@font-face{
+	font-family: myfont;
+	src: url(myfont.otf);
+
+}
+p{
+	text-align: center;
+}
+.infos{
+	display: flex;
+}
+.info{
+	height: 300px;
+	width: 300px;
+	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.href{
+	text-decoration: none;
+	color: black;
+	font-family: myfont2
+}
+.href:hover{
+	color: white;
+}
+.block1{
+	height:160px;
+	width: 300px;
+	margin-left: 20px;
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 0.5s;
+	background-size: 100% 100%;
+	padding-top: 140px;
+	border-radius: 300px;
+}
+.block1:hover{
+	background-image: url(masamune.jpg);
+	background-size: 100% 100%;
+	transform: scale(1.05);
+}
+.block2{
+	height:160px;
+	width: 300px;
+	margin-left: 20px;
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 0.5s;
+	background-size: 100% 100%;
+	padding-top: 140px;
+	border-radius: 300px;
+}
+.block2:hover{
+	background-image: url(wew.jpg);
+	background-size: 100% 100%;
+	transform: scale(1.05);
+}
+.info h1{
+	color: black;
+}
+.info p{
+	font-family: myfont2;
+}
+@font-face{
+	font-family: myfont2;
+	src: url(myfont2.otf);
+
+}
+.link{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: arial;
+	color: red;
+	margin-left: 30px;
+}

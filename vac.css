@@ -1,0 +1,19 @@
+h1{
+	font-size: 50px;
+	color: black;
+}
+div{
+	text-align: center;
+	padding-top: 400PX;
+}
+button{
+	border-radius: 5px;
+	background: red;
+	height: 50px;
+	width: 200px;
+	border: solid black;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
